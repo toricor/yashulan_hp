@@ -1,3 +1,3 @@
-INSERT INTO favorite VALUES(1, 1, 1, "2017-10-01 00:00:00");
-INSERT INTO favorite VALUES(2, 1, 2, "2017-10-01 00:00:00");
-INSERT INTO favorite VALUES(3, 2, 1, "2017-10-01 00:00:00");
+INSERT INTO favorite(user_id, restaurant_id) VALUES(1, 1);
+INSERT INTO favorite(user_id, restaurant_id) VALUES(1, 2);
+INSERT INTO favorite(user_id, restaurant_id) VALUES(2, 1);
