@@ -18,10 +18,10 @@ class UserService {
     fun findOne(id: Int): User =
             userRepository.findOne(id)
 
-
+    /*
     fun findByFirstName(firstName: String): List<User> =
             userRepository.findByFirstName(firstName)
-
+    */
 
     fun create(user: User): User {
         userRepository.insert(user)
